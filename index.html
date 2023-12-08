@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Font Awesome CDN  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!-- Further code here -->
+    <nav id="navbar" class="navbar"><a href="#"></a></nav>
+
+<div class="container">
+    <!--=============== NAVIGATION MENU ===============-->
+
+    <div class="menu">
+        <a href="#welcome-section" class="menu-icon fas fa-home"></a>
+        <a href="#about" class="menu-icon fas fa-user"></a>
+        <a href="#projects" class="menu-icon fas fa-code"></a>
+        <!-- <a href="#experience" class="menu-icon fas fa-briefcase"></a> -->
+        <a href="#contact" class="menu-icon fas fa-envelope"></a>
+    </div>
+
+    <!--=============== MAIN "WINDOW" ===============-->
+
+    <div class="portfolio">
+        <!--=============== HEADER SECTION ===============-->
+
+        <section class="header">
+            <img class="header-img"
+                src="images/my pic.jpeg"
+                alt="" />
+            <h1>Himadri Nag</h1>
+            <h2>Student</h2>
+            <div class="socials">
+                <a href="http://www.linkedin.com/in/himadri-nag-649637289" target="_blank" class="fab fa-linkedin-in" id="profile-link"></a>
+                <a href="https://github.com/NagHimadri" target="_blank" class="fab fa-github"></a>
+            </div>
+            <a href="https://drive.google.com/file/d/1yvSDv9T_ubGQiIvaK1BEGMnP1sU9nKQU/view?usp=sharing" class="cta">DownIoad CV</a>
+        </section>
+
+        <!--=============== CONTENT SECTION ===============-->
+
+        <div class="content">
+            <!--=============== HOME ===============-->
+
+            <section class="content-card home" id="welcome-section">
+                <h1>Hello, welecome to my portfolio</h1>
+            </section>
+
+            <!--=============== ABOUT ME ===============-->
+
+            <section class="content-card about" id="about">
+                <h1>About me</h1>
+                <div class="about-item about-me">
+                    <p>
+                        I am an highly enthusiastic and diligent person. I would like to explore and enhance my knowledge in various domains of Computer Science. Looking to start a career as an entry-level professional with an IT company
+                    </p>
+                </div>
+                <div class="col-2">
+                    <div class="about-item skills">
+                        <h1>Skills</h1>
+                        <span class="skill">HTML</span>
+                        <span class="skill">CSS</span>
+                        <span class="skill">JavaScript</span>
+                        <span class="skill">C</span>
+                        <span class="skill">JAVA</span>
+                        <span class="skill">DSA</span>
+                        <span class="skill">React</span>
+                        <span class="skill">SQL</span>
+                        <span class="skill">Operating System</span>
+                        <span class="skill">Computer Networks</span>
+                    </div>
+
+                    <div class="about-item languages">
+                        <h1>Languages</h1>
+                        <div class="language">
+                            <p>Bengali</p>
+                            <span class="bar"><span class="polish"></span></span>
+                        </div>
+                        <div class="language">
+                            <p>English</p>
+                            <span class="bar"><span class="english"></span></span>
+                        </div>
+                        <div class="language">
+                            <p>Hindi</p>
+                            <span class="bar"><span class="french"></span></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== PROJECTS ===============-->
+
+            <section class="content-card projects" id="projects">
+                <h1>Projects</h1>
+                <div class="col-2 project-list">
+                    <div class="project-tile">
+                        <img src="images/videoVerse.jpg"
+                            alt="" />
+                        <div class="overlay">
+                            <div class="project-description">
+                                <h3>VideoVerse - an online video streaming web application</h3>
+                                <p>
+                                    VideoVerse is an online video streaming application similar like youtube.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-tile">
+                        <img src="images/quizApplication.jpg"
+                            alt="" />
+                        <div class="overlay">
+                            <div class="project-description">
+                                <h3>A Quiz application</h3>
+                                <p>
+                                    It is an dynamic web application where some questions will arrived and
+                                    user have to give answers and according to that answers he or she can
+                                    get the quiz results. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-tile">
+                        <img src="images/calculator.jpg"
+                            alt="" />
+                        <div class="overlay">
+                            <div class="project-description">
+                                <h3>An online calculator</h3>
+                                <p>
+                                    It is a simple online calculator for performing basic arithmetic
+                                    operations.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://github.com/NagHimadri">see more...</a>
+            </section>
+
+            <!--=============== CONTACT ===============-->
+
+            <section class="content-card contact" id="contact">
+                <h1>Contact</h1>
+                <form class="form" id="form" action="https://www.freecodecamp.com/email-submit">
+                    <div class="input-box">
+                        <input type="text" class="text-input" name="name" placeholder="Name" />
+                    </div>
+                    <div class="input-box">
+                        <input type="email" class="text-input" name="email" id="email" placeholder="Email" />
+                    </div>
+                    <div class="input-box">
+                        <input type="subject" class="text-input" name="subject" id="subject"
+                            placeholder="Subject" />
+                    </div>
+                    <div class="input-box">
+                        <textarea name="text" class="message" placeholder="Message..."></textarea>
+                    </div>
+                    <div class="input-box">
+                        <input type="submit" class="submit-btn" id="submit" value="submit" />
+                    </div>
+                </form>
+            </section>
+        </div>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
